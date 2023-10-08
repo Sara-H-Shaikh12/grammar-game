@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.motivational-quotes {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#options-list {
+    list-style: none;
+    padding: 0;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the correct answer */
+.option.correct-answer {
+    background-color: #4CAF50; /* Green color for correct answer */
+    /* Additional styles for correct answer */
+}
+
+#timer {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#score-container {
+    text-align: right;
+}
+
+#score {
+    font-size: 18px;
+}
